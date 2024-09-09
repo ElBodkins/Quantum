@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <title></title>
+</head>
+<body>
+    <section class="bg-light-gray justify-between-general p-5">
+        <div class="col-start bg-white w-55">
+          
+          <h1 class="maintitle ">
+            Chat with an expert
+          </h1>
+          <p class=" text-p">
+            A team member from Quantum will reach <br/>
+            out to discuss your needs.
+          </p>
+          <form  method="POST" action="/sendemail.php" class="col-start-justify">
+            <div class="inputs-justify">
+                <input  type="text" class="w-50 inputs-form" name="fname" placeholder="First Name"  id="" required>
+                <input type="text" class="w-50 inputs-form"  name="lname" placeholder="Last Name" id="" required>
+            </div>
+            <div class="inputs-justify">
+                <input  type="text" class="w-50 inputs-form" name="email" placeholder="Work Email" id="" required>
+                <input type="text" class="w-50 inputs-form"  name="company" placeholder="Company" id="" required>
+            </div>
+            
+            <input class="message-form" type="text" placeholder="Message" name="message" id="">
+            <input type="submit" name="submit" class="btn-blue" value="CONNECT WITH US">
+          </form>
+          <?php
+          include("../sendemail.php");
+          ?>
+          <p class="text-light-gray text-min">
+            By submitting, I agree to the processing and international transfer of my personal data by Quantum as described in the Privacy Politcs.
+          </p>
+        </div>
+        <div class="col-center bg-black w-50">
+          <img
+            src="/assets/imgs/Quantum-Sistemas-05.png"
+            alt=""
+            class="img-quantum"
+          />
+          <h6 class="text-white maintitle">
+            Driving Precision.
+          </h6>
+        </div>
+      </section>
+      <section class="bg-light-gray p-5">
+    
+
+        <div class="justify-between-general  bg-white">
+          
+          <div class="col-center w-30">
+            <img src="/assets/imgs/icon-mail.svg" class="w-2 h-2" alt="" />
+           
+            
+            <p class="text-light-gray">
+                hi@Quantumvpx.com
+            </p>
+          </div>
+          <div class="col-center w-30">
+            <img src="/assets/imgs/icon-phone.svg" class="w-2 h-2" alt="" />
+            
+            
+            <p class="text-light-gray">
+                Americas: +1 (800) <br/>
+Europe: +44 (800) <br/>
+Australia: +61 (2) <br/>
+Canada: +1 (647)
+            </p>
+          </div>
+          <div  class="col-center w-30">
+            <img src="/assets/imgs/icon-pin.svg" class="w-2 h-2" alt="" />
+            
+            
+            <p class="text-light-gray">
+                100 First Street San Francisco, CA 94105, USA
+            </p>
+          </div>
+        </div>
+      </section>
+
+    
+    <script src="../scripts/main.js"></script>
+    <script src="../scripts/contact.js"></script>
+</body>
+</html>
+
+

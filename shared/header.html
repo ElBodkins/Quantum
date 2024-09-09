@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <title></title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="logo" >
+            <a href="/" onclick="navigateTo('/'); return false;">
+                <img  src="../assets/imgs/Logo.svg" alt="Logo" >
+            </a>
+            
+        </div>
+        <button class="open-menu" id="open-menu" onclick="toggleMenu()"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="close-menu" id="close-menu" onclick="toggleMenu()"><i class="bi bi-x"></i></button>
+            <ul class="nav-links">
+                <li><a href="/" onclick="navigateTo('/'); return false;">Quantum</a></li>
+                <li><a href="/drive" onclick="navigateTo('/drive'); return false;">Drive</a></li>
+                <li><a href="/ontrack" onclick="navigateTo('/ontrack'); return false;">Ontrack</a></li>
+                <li><a href="/web" onclick="navigateTo('/web'); return false;">Web</a></li>
+                <li><a href="/fleet" onclick="navigateTo('/fleet'); return false;">Fleet</a></li>
+                <li><a href="/yard" onclick="navigateTo('/yard'); return false;">Yard</a></li>
+                <li><a href="/contact" onclick="navigateTo('/contact'); return false;">Contact</a></li>
+                <li id="primary-btn-nav" ><a class="" href="https://ws.csigroup.com.mx/QuantumVPX">SIGN IN</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    
+    <script src="../scripts/main.js"></script>
+    
+</body>
+</html>
+
+
+
+

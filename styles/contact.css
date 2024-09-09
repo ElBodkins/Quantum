@@ -1,0 +1,573 @@
+ 
+  .bg-gainsboro {
+    background-color: #dadada;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .bg-light-gray{
+    background-color: #EFF0F0;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .bg-black {
+    background-color: black;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+    border-radius: 8px;
+  }
+  .bg-white{
+    background-color: white;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+    border-radius: 8px;
+  }
+
+
+
+
+  .justify-between-general {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 5rem;
+  }
+
+  .col-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    
+    text-align: center;
+  }
+
+
+  .col-start-justify{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    gap: 1rem;
+    
+  }
+
+
+.inputs-justify{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.inputs-form, .message-form{
+    height: 40px;
+    border: 0.5px solid #A49F9F;
+    border-radius: 8px;
+    padding-left: 1rem;
+}
+::placeholder {
+    color:#A49F9F ;
+    font-family: "AllianceNo1", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    
+  }
+
+  .text-light-gray{
+    color:#A49F9F ;
+    font-family: "AllianceNo1", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.message-form{
+    height: 200px;
+}
+
+.text-min{
+    font-size: 0.875rem;
+}
+
+.footer-request-demo{
+background-color: #157ff9  !important;
+}
+
+.request-demo-left>p{
+  color: #000 !important;
+}
+.btn-footer{
+  background-color: black !important;
+    
+
+}
+#footer-img{
+  content: url(/assets/imgs/Quantum-Wordmark-Black.png) !important;
+  
+}
+
+  .bg-slate-blue {
+    background-color: #8C6FEC;
+    border-radius: 8px;
+  }
+  
+  .card-gray {
+    background-color: #d9d9d9;
+    border-radius: 8px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-img {
+    border-radius: 8px;
+    width: 100%;
+  }
+
+  .card-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 20%;
+    gap: 1rem;
+    position: absolute;
+    top: 30%;
+    left: 43%;
+  }
+
+  .card-grid-img{
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .card-features{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .card-features-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    gap: 1rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #000;
+  }
+
+  .bg-card-white {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    gap: 1rem;
+    padding: 1rem;
+    text-wrap: nowrap;
+  }
+
+ 
+  
+  .justify-center {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .text-center {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .maintitle {
+    font-family: "OtypicalHeadline", sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+  }
+  
+
+  .text-p {
+    font-family: "AllianceNo1", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    width: 100%;
+  }
+  
+  .col-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:1rem;
+  }
+
+
+
+
+
+  .title {
+    font-family: "OtypicalHeadline", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+  }
+
+  .title-card {
+    font-family: "OtypicalHeadline", sans-serif;
+    font-weight: 400;
+    font-size: 2.125rem;
+  }
+
+  .subtitle {
+    font-family: "roboto", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .subtitle-secondary{
+    font-size: 2.25rem;
+    font-family: "OtypicalHeadline", sans-serif;
+    font-weight: 400;
+  }
+
+  .subtitle-section {
+    font-family: "OtypicalHeadline", sans-serif;
+    font-size: 1.625rem;
+    font-weight: 400;
+  }
+  
+  
+
+  .text-p-sec {
+    font-family: "AllianceNo1", sans-serif;
+    font-size: 1.375rem;
+    font-weight: 400;
+    width: 100%;
+  }
+
+  .title-list {
+    font-size: 2.875rem;
+    font-family: "OtypicalHeadline", sans-serif;
+  }
+
+  .title-list-secondary {
+    font-size: 1.425rem;
+    font-family: "OtypicalHeadline", sans-serif;
+    font-weight: 400;
+  }
+
+  .p-text-list {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "AllianceNo1", sans-serif;
+  }
+
+  .bold-subtitle{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "AllianceNo1", sans-serif;  
+  }
+
+  .card-title{
+    font-size: 1.85rem;
+    font-weight: 400;
+    font-family: "AllianceNo1", sans-serif;
+  }
+
+  .text-white {
+    color: white;
+  }
+  
+  .text-blue {
+    color: #157ff9;
+  }
+  
+  .col-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+ 
+
+  .col-start-justify{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    
+  }
+  .p-2 {
+    padding: 2rem;
+  }
+  .p-3 {
+    padding: 3rem;
+  }
+  .p-5 {
+    padding: 5rem;
+  }
+  .gap-3 {
+    gap: 3rem;
+  }
+  
+  .w-2 {
+    width: 2rem;
+  }
+  .w-3 {
+    width: 2rem;
+  }
+  .w-25 {
+    width: 25%;
+  }
+  .w-30 {
+    width: 35%;
+  }
+  
+  .w-40 {
+    width: 40%;
+  }
+  
+  .w-50 {
+    width: 50%;
+  }
+  .w-55 {
+    width: 55%;
+  }
+  .w-70 {
+    width: 65%;
+  }
+  .h-2{
+    height: 2rem;
+  }
+  
+  .h-100{
+    height: 100%;
+  }
+  .pr{
+    position: relative;
+  }
+  .btn-blue {
+    background-color: #157ff9;
+    border-radius: 0;
+    border: 0;
+    color: white;
+    padding: 1rem;
+    width: 60%;
+    clip-path: polygon(0 0, 125% 0, 90% 100%, 0 100%);
+    font-size: 0.881rem;
+  }
+  
+ 
+  .img-vin{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+  }
+  
+
+  
+  .pl-6 {
+    padding-left: 6rem;
+  }
+  .pl-3 {
+    padding-left: 3rem;
+  }
+  .pl-2 {
+    padding-left: 2rem;
+  }
+  .pt-1 {
+    padding-top: 1rem;
+  }
+  .pt-2 {
+    padding-top: 2rem;
+  }
+  .pl-5 {
+    padding-left: 5rem;
+  }
+  .pr-5{
+    padding-right: 5rem;
+  }
+  .pb-5 {
+    padding-bottom: 5rem;
+  }
+  .pb-20 {
+    padding-bottom: 20rem;
+  }
+  .mt-7 {
+    margin-top: 7rem;
+  }
+  .mt-4 {
+    margin-top: 4rem;
+  }
+  .mb-4 {
+    margin-bottom: 4rem;
+  }
+  
+  @media (max-width: 480px) {
+    .justify-between-general {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    
+    .bg-white{
+      padding-top: 2rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+    
+    .card-grid {
+      width: 55%;
+      top: 50%;
+      left: 22%;
+    }
+    
+    .maintitle {
+      font-size: 2rem;
+    }
+    
+    .title {
+      font-family: "OtypicalHeadline", sans-serif;
+      font-weight: 400;
+      font-size: 2rem;
+    }
+    
+    .subtitle{
+      font-size: 1rem;
+    }
+    
+    .subtitle-secondary{
+      font-size: 1.5rem;
+    }
+
+    .title-card{
+      font-size: 1.5rem;
+    }
+    
+    .card-title{
+      font-size: 1rem;
+    }
+    
+    .text-p{
+      font-size: 1rem;
+    }
+    
+    .text-p-sec{
+      font-size: 0.8rem;
+    }
+
+    .p-text-list{
+      font-size: 0.8rem;
+    }
+
+    .p-2{
+      padding: 1rem;
+    }
+    .p-5{
+      padding: 2rem;
+    }
+
+    .mt-4{
+      margin-top: 1.5rem;
+    }
+
+    .gap-3{
+      gap: 1rem;
+    }
+
+    .w-30 {
+      display: flex;
+      width: 100%;
+    }
+
+    .w-40 {
+      width: 100%;
+    }
+
+    .w-50 {
+        width: 100%;
+      }
+.w-55{
+  width: 100%;
+}
+
+.img-quantum {
+  width: 100%;
+  align-self: center;
+  justify-content: center;
+}
+.img-vin>img{
+  width: 55%;
+}
+.img-full-control{
+  width: 100%;
+}
+.card-features-top>img{
+  width: 20%;
+}
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    
+    .title{
+      font-size: 2.25rem;
+    }
+  .text-p{
+    font-size: 0.8rem;
+  }
+  .title-card{
+    font-size: 1.5rem;
+  }
+  .subtitle-secondary{
+    font-size: 2rem;
+  }
+    .img-quantum {
+      width: 100%;
+      align-self: center;
+    }
+  
+    .img-par {
+      width: 100%;
+      align-self: center;
+      justify-content: center;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+     
+    .w-30 {
+      width: 45%;
+    }
+  
+    
+  
+    .w-70 {
+      width: 55%;
+    }
+  
+    .img-quantum {
+      width: 28rem;
+      align-self: flex-end;
+    }
+  
+    .img-par {
+      width: 33rem;
+      align-self: flex-end;
+    }
+  }
+  

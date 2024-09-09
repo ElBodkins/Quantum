@@ -1,0 +1,91 @@
+@import url("/styles/yard.css");
+.bg-gainsboro {
+  display: flex;
+  flex-direction: row;
+}
+.col-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap:1rem;
+}
+
+.col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+} 
+
+.list-key>div{
+  border-bottom: 1px solid #000;
+  padding-bottom: 1rem;
+ }
+
+.card-img {
+  border-radius:8px 8px 0px  0px ;
+  width: 100%;
+}
+
+.bg-white {
+  padding: 0;
+  background-color: #fff;
+}
+.text-blue{
+  display: flex;
+  align-items: center;
+  color: #157ff9;
+
+}
+
+.pb-4 {
+  padding-bottom: 4rem !important;
+}
+
+.br-b{
+  border-radius: 0 0 8px 8px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .maintitle{
+    font-size: 2rem;
+  }
+
+  .title{
+    font-size: 2.25rem;
+  }
+  
+  .text-p{
+    font-size: 0.8rem;
+  }
+
+  .title-card{
+    font-size: 1.5rem;
+  }
+
+  .subtitle-secondary{
+    font-size: 2rem;
+  }
+
+  .img-quantum {
+    width: 100%;
+    align-self: center;
+  }
+  
+  .img-par {
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+  }
+}
+  
+@media (max-width: 480px) {
+  .bg-gainsboro{
+    flex-direction: column;
+  }
+  .bg-light-gray{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+} 

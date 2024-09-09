@@ -1,0 +1,283 @@
+@import url("home.css");
+
+.bg-dark-gray {
+  background-color: #dadada;
+  margin: 0;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.title {
+  font-size: 3.25rem;
+  font-weight: 400;
+  font-family: "Otypical Text", sans-serif;
+}
+
+.title-per {
+  font-size: 4.053rem;
+  font-weight: 400;
+  font-family: "Otypical Text", sans-serif;
+}
+
+.img-logo {
+  width: 12.5rem;
+}
+
+.py-4 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.pt-3 {
+  padding-top: 3rem;
+}
+
+.card-white {
+  border: 1px solid #dadada;
+  border-radius: 7px;
+  background-color: white;
+
+  padding: 0;
+}
+
+.card-img-parking {
+  background-image: url("/assets/imgs/parking-ontrack.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.h-40 {
+  height: 40%;
+}
+
+.text-dark-gray {
+  color: #303030;
+}
+
+.title-card {
+  font-size: 1.861rem;
+  font-family: "Otypical Text", sans-serif;
+  font-weight: 400;
+}
+
+.card-orange {
+  background-color: #e46e37;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.card-darkest-gray {
+  background-color: #c5c5c5;
+  border-radius: 7px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-top-gray {
+  background-color: #d9d9d9;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.card-img-car {
+  background-image: url("/assets/imgs/car-ontrack.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.card-dark-gray {
+  background-color: #d9d9d9;
+  border-radius: 26px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.justify-col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.justify-col-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.border-bottom-black {
+  border-bottom: 1px solid black;
+  margin-bottom: 0.4rem;
+}
+.mt-03 {
+  margin-top: 0.3rem;
+}
+.mt-3 {
+  margin-top: 3rem;
+}
+.p-1 {
+  padding: 1rem;
+}
+
+.px-2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.p-8p {
+  padding: 8px;
+}
+.p-0 {
+  padding: 0;
+}
+
+
+.pb-3rem {
+  padding-bottom: 3rem;
+}
+
+.w-6r {
+  width: 6rem;
+}
+
+.w-40p {
+  width: 40px;
+}
+
+.w-80p {
+  width: 80px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.body-table-card {
+  font-size: 0.688rem;
+  font-family: "Otypical Text", sans-serif;
+}
+
+.title-table-card {
+  font-size: 0.554rem;
+  color: #a49f9f;
+  font-family: "Otypical Text", sans-serif;
+}
+
+.title-card-m {
+  font-size: 1.313rem;
+  color: #7d7d7d;
+  font-family: "Otypical Text", sans-serif;
+}
+
+.subtitle-section {
+  font-size: 2.25rem;
+  font-family: "Otypical Text", sans-serif;
+}
+
+.bg-card-50 {
+  width: 80%;
+  border-radius: 7px;
+}
+
+.bg-image-city {
+  background-image: url("/assets/imgs/ontrack-city.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+}
+
+.indicators {
+  border-radius: 100px;
+  padding: 4px 0px;
+  text-align: center;
+  width: 50%;
+}
+
+.bg-green {
+  background-color: #40c274;
+}
+
+.bg-red {
+  background-color: #d6271c;
+}
+
+td {
+  padding: 5px 0;
+}
+
+.td-gray {
+  background-color: #7d7d7d;
+  border-radius: 50px;
+  height: 11px;
+}
+.img-black {
+  width: 6rem;
+  background-color: black;
+  border-radius: 100%;
+  padding: 1rem;
+}
+
+.bg-img-truck {
+  background-image: url("/assets/imgs/truck-ontrack.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 300px;
+  min-height: 694px;
+  padding: 2rem;
+  border-radius: 7px !important;
+}
+
+@media (max-width: 400px) {
+  .bg-card-50 {
+    width: 100%;
+    border-radius: 7px;
+    padding: 0.2rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .w-30 {
+    display: flex;
+    width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .justify-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .bg-card-50 {
+    width: 100%;
+    border-radius: 7px;
+  }
+}
